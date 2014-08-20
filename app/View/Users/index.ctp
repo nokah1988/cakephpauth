@@ -40,9 +40,9 @@
         <?php unset($user); ?>
     </tbody>
 </table>
-<?php echo $this->Paginator->prev('<< ' . __('previous', true), array(), null, array('class'=>'disabled'));?>
+<?php echo $this->Paginator->prev('<<  ' . __('previous', true), array(), null, array('class'=>'disabled'));?>
 <?php echo $this->Paginator->numbers(array(   'class' => 'numbers'     ));?>
-<?php echo $this->Paginator->next(__('next', true) . ' >>', array(), null, array('class' => 'disabled'));?>
+<?php echo $this->Paginator->next(__('next', true) . '  >>', array(), null, array('class' => 'disabled'));?>
 </div>                
 <?php echo $this->Html->link( "Add A New User.",   array('action'=>'add'),array('escape' => false) ); ?>
 <br/>
